@@ -1,2 +1,2 @@
-require "basic_support"
+require "wnm_support"
 require "active_support/all"

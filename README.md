@@ -1,22 +1,20 @@
-# BasicSupport
+# WnmSupport
 
-add some usefull methods to core class for rails project
+add some useful methods to core class for rails project
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'basic_support'
+    gem "wnm_support", :git => "git@bitbucket.org:mirrec/wnm_support.git"
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install basic_support
-
 ## Usage
+
+### Core extentions
 
 
     1.to_b # => true

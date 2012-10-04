@@ -1,0 +1,10 @@
+require "wnm_support/version"
+
+require "wnm_support/core_ext/class_exists"
+require "wnm_support/core_ext/to_boolean"
+require "wnm_support/core_ext/to_integer"
+require "wnm_support/core_ext/to_array"
+require "wnm_support/core_ext/is_integer"
+require "wnm_support/core_ext/max_words"
+require "wnm_support/core_ext/map_to_hash"
+require "wnm_support/core_ext/halved"
