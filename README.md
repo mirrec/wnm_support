@@ -1,6 +1,6 @@
 # BasicSupport
 
-TODO: Write a gem description
+add some usefull methods to core class for rails project
 
 ## Installation
 
@@ -18,7 +18,24 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
+    1.to_b # => true
+    1.to_b # => false
+
+    true.to_i # => 1
+    false.to_i # => 0
+
+    "123".is_integer? # => true
+    "123ad".is_integer? # => false
+
+    "one more something".max_words(2, "..") # => "one more.."
+
+    "some".to_a # => ["some"]
+    1.to_a # => [1]
+
+    [ ["k1", "v1"], ["k2", "v2"] ].map_to_hash{|item| {item.first => item.last} } # => {"k1" => "v1", "k2" => "b2"}
+
+    [1,2,3,4].halved # => [ [1, 2], [3, 4] ]
 
 ## Contributing
 
