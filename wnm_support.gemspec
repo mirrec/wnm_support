@@ -18,6 +18,9 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_runtime_dependency "activesupport"
+  gem.add_runtime_dependency "activerecord"
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "rake"
+  gem.add_development_dependency "active_record_no_table"
+  gem.add_development_dependency "mysql2"
 end
