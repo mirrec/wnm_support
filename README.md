@@ -6,7 +6,7 @@ add some useful methods to core class for rails project
 
 Add this line to your application's Gemfile:
 
-    gem "wnm_support", :git => "git@bitbucket.org:mirrec/wnm_support.git"
+    gem "wnm_support"
 
 And then execute:
 
