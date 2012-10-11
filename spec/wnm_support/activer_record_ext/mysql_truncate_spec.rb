@@ -1,5 +1,7 @@
 require 'spec_helper'
 
+ActiveRecord::Base.send :include, WnmSupport::ActiveRecordExt::MysqlTruncate
+
 class News < ActiveRecord::Base
 
 end

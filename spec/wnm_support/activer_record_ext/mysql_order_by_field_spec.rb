@@ -1,5 +1,7 @@
 require 'spec_helper'
 
+ActiveRecord::Base.send :include, WnmSupport::ActiveRecordExt::MysqlOrderByField
+
 class News < ActiveRecord::Base
 
 end

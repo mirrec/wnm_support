@@ -1,3 +1,12 @@
+# 0.0.4
+## added
+* view helper BoolToHuman
+* view helper Youtube
+* railtie load view helpers
+* railtie load active record extensions
+* readme section for active record extensions
+* readme section for active record view helpers
+
 # 0.0.3
 * add support for active record extentions
 ** DestroyValidation

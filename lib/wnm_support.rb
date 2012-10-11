@@ -18,10 +18,7 @@ require "wnm_support/active_record_ext/multi_action"
 require "wnm_support/active_record_ext/mysql_truncate"
 require "wnm_support/active_record_ext/mysql_order_by_field"
 
-class ActiveRecord::Base
-  include WnmSupport::ActiveRecordExt::DestroyValidation
-  include WnmSupport::ActiveRecordExt::ViewHelpers
-  include WnmSupport::ActiveRecordExt::MultiAction
-  include WnmSupport::ActiveRecordExt::MysqlTruncate
-  include WnmSupport::ActiveRecordExt::MysqlOrderByField
-end
+require "wnm_support/view_helpers/bool_to_human"
+require "wnm_support/view_helpers/youtube"
+
+require "wnm_support/railtie" if defined?(Rails)

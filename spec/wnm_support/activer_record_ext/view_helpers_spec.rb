@@ -1,5 +1,7 @@
 require "spec_helper"
 
+ActiveRecord::Base.send :include, WnmSupport::ActiveRecordExt::ViewHelpers
+
 class Item < ActiveRecord::Base
   include ActiveRecordNoTable
 end
