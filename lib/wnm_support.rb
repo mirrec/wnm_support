@@ -20,5 +20,6 @@ require "wnm_support/active_record_ext/mysql_order_by_field"
 
 require "wnm_support/view_helpers/bool_to_human"
 require "wnm_support/view_helpers/youtube"
+require "wnm_support/view_helpers/link_to_add_fields"
 
 require "wnm_support/railtie" if defined?(Rails)

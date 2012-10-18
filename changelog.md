@@ -1,3 +1,8 @@
+# 0.0.5
+## added
+* view helper LinkToAddFields
+* readme section for view helper LinkToAddFields
+
 # 0.0.4
 ## added
 * view helper BoolToHuman

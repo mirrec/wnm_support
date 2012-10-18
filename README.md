@@ -95,6 +95,14 @@ And then execute:
     video = youtube_video(url, 100, 200)
     video # => <object width='100' height='200'><param url='youtube.com/v/lala'>...</object>
 
+    # use inside form_group
+    <%= form_group t("sample.title") do %>
+      <%= f.fields_for :some_attributes do |builder| %>
+        <%= render :partial => 'some_partial_with_inputs_to_add', :locals => {:f => builder} %>
+      <% end %>
+      <%= link_to_add_fields t("sample.add_title"), f, :some_attributes %>
+    <% end %>
+
 ## Contributing
 
 1. Fork it
