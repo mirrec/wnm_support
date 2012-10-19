@@ -4,7 +4,6 @@ module WnmSupport
       initializer "wnm_support.view_helpers" do
         ActionView::Base.send :include, BoolToHuman
         ActionView::Base.send :include, Youtube
-        ActionView::Base.send :include, LinkToAddFields
       end
 
       initializer "wnm_support.active_record_ext" do

@@ -1,3 +1,7 @@
+# 0.0.6
+## removed
+* view helper LinkToAddFields, because of not easy testing
+
 # 0.0.5
 ## added
 * view helper LinkToAddFields
