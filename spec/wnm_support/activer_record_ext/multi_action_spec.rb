@@ -11,7 +11,7 @@ describe WnmSupport::ActiveRecordExt::MultiAction do
     Item.should respond_to :multi
   end
 
-  it "should have default [:destroy]" do
-    Item.multi.should eq [:destroy]
+  it "should have default [:ActionButton]" do
+    Item.multi.first.instance_of?(WnmSupport::ActiveRecordExt::MultiAction::ActionButton).should be_true
   end
 end

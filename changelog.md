@@ -1,3 +1,7 @@
+# 1.0.0
+## changed
+* WnmSupport::ActiveRecordExt::MultiAction has ActionButton class where you can define :action and :icon in multi method - no back compatibility
+
 # 0.0.6
 ## removed
 * view helper LinkToAddFields, because of not easy testing
