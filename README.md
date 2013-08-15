@@ -61,7 +61,7 @@ And then execute:
     news[2] # news record with id = 1
 
     # multi actions
-    News.multi # => [:destroy] # every model has this method
+    News.multi # => [] # every model has this method, you can define there multi action on more models
 
     # destroy validation
     item = News.create!(:name => "new item")

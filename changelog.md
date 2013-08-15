@@ -1,6 +1,6 @@
-# 1.0.0
+# 0.0.7
 ## changed
-* WnmSupport::ActiveRecordExt::MultiAction has ActionButton class where you can define :action and :icon in multi method - no back compatibility
+* multi action in ActiveRecord::base now return empty array
 
 # 0.0.6
 ## removed
