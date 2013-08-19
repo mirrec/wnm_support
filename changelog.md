@@ -1,3 +1,7 @@
+# 0.0.8
+## changed
+* gem is licensed under MIT
+
 # 0.0.7
 ## changed
 * multi action in ActiveRecord::base now return empty array

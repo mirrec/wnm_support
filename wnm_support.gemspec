@@ -12,6 +12,8 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Extend core methods in Rails}
   gem.homepage      = "https://github.com/mirrec/wnm_support"
 
+  gem.license       = 'MIT'
+
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
